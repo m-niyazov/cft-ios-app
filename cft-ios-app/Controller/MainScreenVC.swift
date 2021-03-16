@@ -31,9 +31,7 @@ class MainScreenVC: UITableViewController {
         
         configureNavigationBar()
         view.backgroundColor = .secondarySystemBackground
- 
     }
-
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

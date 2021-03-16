@@ -68,7 +68,7 @@ class CoreDataManager {
     
     func getNotesFromStore(complition: ([Note]) -> Void) {
         let fetchRequest: NSFetchRequest<Note> = Note.fetchRequest()
-        let sortDescriptor = NSSortDescriptor(key: "title", ascending: false)
+        let sortDescriptor = NSSortDescriptor( key: "title", ascending: false)
         fetchRequest.sortDescriptors = [sortDescriptor]
         do {
             let notes = try context.fetch(fetchRequest)

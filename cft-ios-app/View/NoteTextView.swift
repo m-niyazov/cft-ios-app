@@ -75,7 +75,7 @@ extension NoteTextView {
             contentInset = UIEdgeInsets(top: 0, left: 0
                 , bottom: 0, right: 0)
         } else {
-            contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardFrame.height - 30, right: 10)
+            contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardFrame.height, right: 0)
         }
     
     }
