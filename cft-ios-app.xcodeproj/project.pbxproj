@@ -29,7 +29,7 @@
 		980A1CD125FE452F00F2A71D /* NoteTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTextView.swift; sourceTree = "<group>"; };
 		982AECE525FC12EB00420221 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		982AECE725FC188500420221 /* NoteScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteScreenVC.swift; sourceTree = "<group>"; };
-		9894BC8825FA06D6000D3DB9 /* CFT - Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CFT - Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9894BC8825FA06D6000D3DB9 /* cft-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cft-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9894BC8B25FA06D6000D3DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9894BC8D25FA06D6000D3DB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9894BC9725FA06DB000D3DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		9894BC7F25FA06D6000D3DB9 = {
 			isa = PBXGroup;
 			children = (
-				9894BC8A25FA06D6000D3DB9 /* CFT - Notes */,
+				9894BC8A25FA06D6000D3DB9 /* cft-ios-app */,
 				9894BC8925FA06D6000D3DB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,12 +115,12 @@
 		9894BC8925FA06D6000D3DB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9894BC8825FA06D6000D3DB9 /* CFT - Notes.app */,
+				9894BC8825FA06D6000D3DB9 /* cft-ios-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9894BC8A25FA06D6000D3DB9 /* CFT - Notes */ = {
+		9894BC8A25FA06D6000D3DB9 /* cft-ios-app */ = {
 			isa = PBXGroup;
 			children = (
 				980A1CCC25FD103000F2A71D /* CoreData */,
@@ -130,15 +130,15 @@
 				982AECE225FC126000420221 /* View */,
 				982AECE325FC126E00420221 /* Controller */,
 			);
-			path = "CFT - Notes";
+			path = "cft-ios-app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9894BC8725FA06D6000D3DB9 /* CFT - Notes */ = {
+		9894BC8725FA06D6000D3DB9 /* cft-ios-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9894BC9F25FA06DB000D3DB9 /* Build configuration list for PBXNativeTarget "CFT - Notes" */;
+			buildConfigurationList = 9894BC9F25FA06DB000D3DB9 /* Build configuration list for PBXNativeTarget "cft-ios-app" */;
 			buildPhases = (
 				9894BC8425FA06D6000D3DB9 /* Sources */,
 				9894BC8525FA06D6000D3DB9 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "CFT - Notes";
+			name = "cft-ios-app";
 			productName = "CFT - Notes";
-			productReference = 9894BC8825FA06D6000D3DB9 /* CFT - Notes.app */;
+			productReference = 9894BC8825FA06D6000D3DB9 /* cft-ios-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9894BC8325FA06D6000D3DB9 /* Build configuration list for PBXProject "CFT - Notes" */;
+			buildConfigurationList = 9894BC8325FA06D6000D3DB9 /* Build configuration list for PBXProject "cft-ios-app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9894BC8725FA06D6000D3DB9 /* CFT - Notes */,
+				9894BC8725FA06D6000D3DB9 /* cft-ios-app */,
 			);
 		};
 /* End PBXProject section */
@@ -350,13 +350,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMPG5D2MU6;
-				INFOPLIST_FILE = "$(SRCROOT)/CFT - Notes/Supported Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/cft-ios-app/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.m.niyazov.CFT---Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.m.niyazov.cft-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,13 +369,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MMPG5D2MU6;
-				INFOPLIST_FILE = "$(SRCROOT)/CFT - Notes/Supported Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/cft-ios-app/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.m.niyazov.CFT---Notes";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.m.niyazov.cft-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9894BC8325FA06D6000D3DB9 /* Build configuration list for PBXProject "CFT - Notes" */ = {
+		9894BC8325FA06D6000D3DB9 /* Build configuration list for PBXProject "cft-ios-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9894BC9D25FA06DB000D3DB9 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9894BC9F25FA06DB000D3DB9 /* Build configuration list for PBXNativeTarget "CFT - Notes" */ = {
+		9894BC9F25FA06DB000D3DB9 /* Build configuration list for PBXNativeTarget "cft-ios-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9894BCA025FA06DB000D3DB9 /* Debug */,
