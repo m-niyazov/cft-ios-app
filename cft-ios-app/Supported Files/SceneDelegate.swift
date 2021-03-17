@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let navigationVC = UINavigationController(rootViewController: MainScreenVC(coreDataManager: coreDataManager))
         window?.rootViewController = navigationVC
         window?.makeKeyAndVisible()
-//        UserDefaults.standard.removeObject(forKey: "isFirstOpen")
+      
         firstOpeningApp()
         
         if #available(iOS 13.0, *) {
