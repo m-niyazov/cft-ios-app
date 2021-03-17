@@ -26,6 +26,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
 //        UserDefaults.standard.removeObject(forKey: "isFirstOpen")
         firstOpeningApp()
+        
+        if #available(iOS 13.0, *) {
+        if UITraitCollection.current.userInterfaceStyle == .dark {
+            window?.overrideUserInterfaceStyle = .light
+        }
+        else {
+            window?.overrideUserInterfaceStyle = .light
+        }
+        }
+
     }
     
     func firstOpeningApp() {
